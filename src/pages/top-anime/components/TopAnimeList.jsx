@@ -1,5 +1,6 @@
 import AnimeCard from "../../../components/cards/AnimeCard";
 import { addDecimalToScore } from "../../../utils/addDecimalToScore";
+
 function TopAnimeList({ data }) {
   const renderList = data?.pages.map((page) => {
     return page.media.map((anime) => {
@@ -15,6 +16,7 @@ function TopAnimeList({ data }) {
       );
     });
   });
+
   return <div className="flex flex-wrap justify-center">{renderList}</div>;
 }
 

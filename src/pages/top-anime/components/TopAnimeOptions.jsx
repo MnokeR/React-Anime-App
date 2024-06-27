@@ -1,5 +1,5 @@
 import FormSelectionOptions from "../../../components/FormSelectOptions";
-function TopAnimeSelect() {
+function TopAnimeOptions() {
   return (
     <div className="flex justify-center">
       <FormSelectionOptions name="Format" options={["TV", "Movie", "OVA"]} />
@@ -7,4 +7,4 @@ function TopAnimeSelect() {
   );
 }
 
-export default TopAnimeSelect;
+export default TopAnimeOptions;
